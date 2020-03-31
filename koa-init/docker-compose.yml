@@ -1,0 +1,12 @@
+version: '3'
+services:
+  koa:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: npm start
+    volumes:
+      - ./app:/koa/app
+      - ./tsconfig.json:/koa/tsconfig.json
+    ports:
+      - 3000:3000

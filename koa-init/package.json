@@ -1,0 +1,43 @@
+{
+  "name": "@mpan-wework/koa-init",
+  "version": "0.1.0",
+  "description": "Koa Init",
+  "main": "dist/server.js",
+  "module": "dist/server.js",
+  "scripts": {
+    "start": "nodemon app/server.ts",
+    "debug": "tsc && nodemon dist/server.js"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mpan-wework/interview-essentials-example",
+    "directory": "koa-init"
+  },
+  "author": {
+    "name": "Mike Pan",
+    "email": "mike.pan@wework.com",
+    "url": "https://mpan-wework.github.io"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/koa": "^2.11.3",
+    "@types/koa-router": "^7.4.0",
+    "@types/lodash": "^4.14.149",
+    "@types/node": "^13.9.8",
+    "dotenv": "^8.2.0",
+    "dotenv-expand": "^5.1.0",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.8.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^8.0.8",
+    "lodash": "^4.17.15",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.5"
+  }
+}
